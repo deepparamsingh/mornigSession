@@ -1,0 +1,20 @@
+Task
+How to delete branch from local
+How to delete branch from local and remote
+Merge vs Rebase
+
+Task
+	Send email so that I can add as collob
+	clone this repository
+	create your local branch
+	add new testcase
+	add .
+	commit
+	push your branch
+	create pull request
+
+
+
+
+
+
