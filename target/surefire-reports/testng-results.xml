@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35894" started-at="2023-02-21T12:04:03 IST" finished-at="2023-02-21T12:04:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35894" started-at="2023-02-21T12:04:03 IST" finished-at="2023-02-21T12:04:38 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@1139b2f3]" name="setup" is-config="true" duration-ms="12881" started-at="2023-02-21T12:04:03 IST" finished-at="2023-02-21T12:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:testcases.LoginTest@1139b2f3]" name="verifyTitle" duration-ms="158" started-at="2023-02-21T12:04:15 IST" finished-at="2023-02-21T12:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifySocialMediaPresense()[pri:2, instance:testcases.LoginTest@1139b2f3]" name="verifySocialMediaPresense" duration-ms="701" started-at="2023-02-21T12:04:16 IST" finished-at="2023-02-21T12:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySocialMediaPresense -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String,java.lang.String)[pri:3, instance:testcases.LoginTest@1139b2f3]" name="loginToApplication" duration-ms="19103" started-at="2023-02-21T12:04:19 IST" data-provider="credentials" finished-at="2023-02-21T12:04:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@1139b2f3]" name="tearDown" is-config="true" duration-ms="118" started-at="2023-02-21T12:04:38 IST" finished-at="2023-02-21T12:04:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+git init
+git status
+git add singlefile
+git add . or git add *
+git commit -m "msg"
