@@ -3,3 +3,6 @@ git status
 git add singlefile
 git add . or git add *
 git commit -m "msg"
+git branch -M main
+git remote add origin https://github.com/Mukesh-50/Nov2022Batch.git
+git push -u origin main
