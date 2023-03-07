@@ -85,7 +85,11 @@ public class Utility {
 		WebElement element =wait.until(ExpectedConditions.elementToBeClickable(locator));
 		return element;
 	}
-
+	public static boolean waitForElementToBeInvisibile(WebDriver driver, By webElement, Duration seconds) {
+		WebDriverWait wait = new WebDriverWait(driver, seconds);
+		boolean element = wait.until(ExpectedConditions.invisibilityOfElementLocated(webElement));
+		return element;
+	}
 
 
 	public static void selectValuesFromList(WebDriver driver, By locator, String value) {
